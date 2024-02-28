@@ -6,12 +6,22 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      keyframes: {
+        carousel: {
+          "0%,25% ,100%": { transform: "translateX(0)" },
+          "30%,55%": { transform: "translateX(-100%)" },
+          "60%,85%": { transform: "translateX(-200%)" },
+        },
+      },
+      animation: {
+        carousel: "carousel 15s ease-in-out infinite ",
+      },
+      colors: {
+        aedl: "#ff710d",
+        "aedl-dark": "#334454",
       },
     },
   },
