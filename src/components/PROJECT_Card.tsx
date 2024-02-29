@@ -23,7 +23,7 @@ export function PROJECT_Card({
         <br />
         <span className="w-full text-xs italic">({location})</span>
       </div>
-      <div className="absolute top-full z-10 size-full overflow-auto bg-slate-700/50 px-2 pb-2 pt-12 text-sm text-white transition duration-300 ease-in-out group-hover:-translate-y-full">
+      <div className="absolute top-full z-10 size-full overflow-auto bg-slate-700/50 px-2 pb-2 pt-20 text-sm text-white transition duration-300 ease-in-out group-hover:-translate-y-full sm:text-lg">
         {description}
       </div>
       <div className="absolute bottom-2 right-0 bg-aedl-dark px-4 py-1 text-xs italic text-white">

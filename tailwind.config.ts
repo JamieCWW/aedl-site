@@ -11,9 +11,10 @@ const config: Config = {
     extend: {
       keyframes: {
         carousel: {
-          "0%,25% ,100%": { transform: "translateX(0)" },
-          "30%,55%": { transform: "translateX(-100%)" },
-          "60%,85%": { transform: "translateX(-200%)" },
+          "0%,20%,100%": { transform: "translateX(0)" },
+          "25%,45%": { transform: "translateX(-100%)" },
+          "50%,70%": { transform: "translateX(-200%)" },
+          "75%,95%": { transform: "translateX(-300%)" },
         },
       },
       animation: {

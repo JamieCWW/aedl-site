@@ -8,20 +8,6 @@ export function FOOTER_Body() {
   return (
     <footer className="flex h-fit w-full flex-col items-center justify-center gap-2 border-t-4 border-aedl bg-aedl-dark px-4 py-10 text-white">
       <div className="flex size-full flex-wrap justify-between">
-        <div className="flex h-full items-center justify-center sm:w-1/6">
-          <div className="flex flex-col items-center justify-between sm:size-full">
-            <Image
-              src={iosh}
-              alt="IOSH Leading Safely"
-              className="brightness-100 grayscale invert"
-            />
-            <Image
-              src={niceic}
-              alt="NICEIC & BAFE Qualified Supervisor"
-              className="brightness-100 grayscale invert"
-            />
-          </div>
-        </div>
         <div className="flex flex-col gap-2">
           <h3 className="italic text-aedl underline">Get in Touch</h3>
           <div className="flex flex-col gap-2 text-xs text-slate-400">
