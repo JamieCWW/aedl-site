@@ -1,0 +1,33 @@
+[
+  {
+    "photo": "/plans.jpg",
+    "header": "Plans & Drawings",
+    "subheading": "We Create plans and drawings to spec up your electrical needs based on your existing GA plan",
+    "description": "Description Needed",
+    "carousel": true
+  },
+  {
+    "photo": "/elecspec.webp",
+    "header": "Electrical System Design",
+    "subheading": "We Design and calculate your system",
+    "description": "We provide cable calculations using a well known and respected software to provide numerous information that will assist your team in the installation. Alongside this we can provide CAD drawings and lighting calculations which will bring the benefit to the scheme. As well as design we can attend sites to check compliance and snagging prior to handover so that it gives you and your client peace of mind.",
+    "carousel": true,
+    "spec": "BS7671-2018 (Amd 2:2022)"
+  },
+  {
+    "photo": "/emergency.webp",
+    "header": "Emergency Lighting",
+    "subheading": "We Design and Organise your emergency lighting.",
+    "description": "How many times does this important feature get missed out, we can provide calculations and drawings so you know its been designed correctly. ",
+    "carousel": true,
+    "spec": "BS5266-1:2016"
+  },
+  {
+    "photo": "/firealarm.jpg",
+    "header": "Fire Alarm Systems",
+    "subheading": "We Design your fire alarm system to your spec",
+    "description": "At A Eade Electrical Design, we work closely with our clients to deliver the best results in each of our fire alarm projects. From initial concept, we add value to our work by providing faster, more productive efforts, greater skills, and more comprehensive know-how. From initial meeting we can start working on your design needs for you.",
+    "carousel": true,
+    "spec": "BS5839-1"
+  }
+]

@@ -2,7 +2,7 @@ export function SECTION_Body({
   children,
   additionalClasses,
 }: {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   additionalClasses?: string;
 }) {
   return (

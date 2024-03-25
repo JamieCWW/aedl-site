@@ -21,8 +21,9 @@ const config: Config = {
         carousel: "carousel 15s ease-in-out infinite ",
       },
       colors: {
-        aedl: "#ff710d",
-        "aedl-dark": "#334454",
+        aedl: "#2E92B4",
+        "aedl-dark": "#333333",
+        "aedl-orange": "#E94821",
       },
     },
   },

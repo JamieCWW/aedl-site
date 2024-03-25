@@ -5,14 +5,18 @@ export function SECTION_About() {
     <div className="flex w-full flex-col items-center  gap-10 py-20 text-slate-600">
       <HEADINGS_Sub>About Us</HEADINGS_Sub>
       <p className="w-5/6 text-justify text-xs sm:w-1/2 sm:text-base">
-        For over 34 years, has cultivated expertise across diverse sectors of
-        the electrical industry. This extensive experience serves as the
-        foundation for our commitment to delivering safe and compliant designs.
-        Since 1986, our journey began humbly with a dual trade apprenticeship at
-        British Rail in Rugby. From there, I navigated through various roles
-        within the electrical field, culminating in the establishment of an
-        electrical business in 2005. Over time, I honed my skills and leadership
-        as an NICEIC & BAFE qualified supervisor, this venture evolved into a
+        For over 34 years,{" "}
+        <strong className="text-sm text-aedl sm:text-lg">
+          Advanced Electrical Design Ltd{" "}
+        </strong>{" "}
+        has cultivated expertise across diverse sectors of the electrical
+        industry. This extensive experience serves as the foundation for our
+        commitment to delivering safe and compliant designs. Since 1986, our
+        journey began humbly with a dual trade apprenticeship at British Rail in
+        Rugby. From there, I navigated through various roles within the
+        electrical field, culminating in the establishment of an electrical
+        business in 2005. Over time, I honed my skills and leadership as an
+        NICEIC & BAFE qualified supervisor, this venture evolved into a
         comprehensive M&E company, before transitioning to specialize in
         providing top-tier designs for electrical contractors and clients.
         <br />

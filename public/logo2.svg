@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1080 540" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-5.11805,0)">
+        <g transform="matrix(0.868971,0,0,0.867775,153.375,-252.371)">
+            <text x="662.045px" y="472.089px" style="font-family:'HoeflerText-Black', 'Hoefler Text', serif;font-weight:700;font-size:79.2px;fill:rgb(46,146,180);">A<tspan x="721.208px 769.757px " y="472.089px 472.089px ">dv</tspan>anc<tspan x="944.869px 987.558px " y="472.089px 472.089px ">ed</tspan></text>
+            <text x="662.045px" y="581.324px" style="font-family:'HoeflerText-Black', 'Hoefler Text', serif;font-weight:700;font-size:79.2px;fill:rgb(46,146,180);">Electrical</text>
+            <text x="662.045px" y="690.559px" style="font-family:'HoeflerText-Black', 'Hoefler Text', serif;font-weight:700;font-size:79.2px;fill:rgb(46,146,180);">Design</text>
+            <g transform="matrix(79.2002,0,0,79.2002,801.913,799.794)">
+            </g>
+            <text x="662.045px" y="799.794px" style="font-family:'HoeflerText-Black', 'Hoefler Text', serif;font-weight:700;font-size:79.2px;fill:rgb(46,146,180);">Ltd</text>
+        </g>
+        <g transform="matrix(1,0,0,1,27.4302,-1.23221)">
+            <g transform="matrix(-2.08112e-16,1.13135,-1.1717,-2.14941e-16,1195.37,-166.994)">
+                <path d="M356.732,565.782L356.732,744.852L179.401,744.852L356.732,565.782Z" style="fill:rgb(233,72,33);"/>
+            </g>
+            <g transform="matrix(1.63327,0.941673,-0.669259,1.15759,7.93087,-636.732)">
+                <path d="M322.63,318.726L322.63,553.003L225.663,553.003L322.63,318.726Z" style="fill:rgb(233,72,33);"/>
+            </g>
+            <g transform="matrix(3.46854e-16,-1.13135,1.1717,3.58236e-16,-640.694,714.5)">
+                <path d="M356.732,565.782L356.732,744.852L179.401,744.852L356.732,565.782Z" style="fill:rgb(233,72,33);"/>
+            </g>
+            <g transform="matrix(-1.63327,-0.941673,0.669259,-1.15759,546.747,1184.24)">
+                <path d="M322.63,318.726L322.63,553.003L225.663,553.003L322.63,318.726Z" style="fill:rgb(233,72,33);"/>
+            </g>
+        </g>
+        <g transform="matrix(0.390001,0,0,1.31654,435.765,-432.625)">
+            <path d="M596.726,366.302L596.726,711.234C596.726,712.768 592.522,714.014 587.342,714.014C582.163,714.014 577.958,712.768 577.958,711.234L577.958,366.302C577.958,364.767 582.163,363.522 587.342,363.522C592.522,363.522 596.726,364.767 596.726,366.302Z" style="fill:rgb(46,146,180);"/>
+        </g>
+    </g>
+</svg>
