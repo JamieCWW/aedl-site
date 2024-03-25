@@ -12,7 +12,7 @@ export function SECTION_Carousel() {
     <div className="flex size-full animate-carousel sm:flex-row">
       {items
         .filter((el) => el.carousel)
-        .map((service: ServiceType, index: number) => {
+        .map((service: any, index: number) => {
           if (!service.subheading) return;
           return (
             <CAROUSEL_Tile image={service.photo} key={index}>
