@@ -25,8 +25,8 @@ export function SECTIONLIST_Item({
             <div className="w-full px-4">{service.description}</div>
 
             <ul className="list-disc px-10">
-              <li>What's covered ... One</li>
-              <li>What's covered ... Two</li>
+              <li>What&apos;s covered ... One</li>
+              <li>What&apos;s covered ... Two</li>
             </ul>
           </div>
         </div>
