@@ -32,9 +32,8 @@ export function FOOTER_Body() {
           <h3 className="italic text-aedl underline">Sitemap</h3>
           <div className="flex flex-col gap-2 text-xs text-slate-400">
             <LINK_Custom href="/">Home</LINK_Custom>
-            <LINK_Custom href="/">Services</LINK_Custom>
-            <LINK_Custom href="/">Projects</LINK_Custom>
-            <LINK_Custom href="/">Contact</LINK_Custom>
+            <LINK_Custom href="/services">Services</LINK_Custom>
+            <LINK_Custom href="/contact">Contact</LINK_Custom>
           </div>
         </div>
         <div className="flex w-full list-none flex-col gap-2 text-xs text-slate-400 sm:w-1/5">

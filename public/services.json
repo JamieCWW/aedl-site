@@ -3,14 +3,14 @@
     "photo": "/plans.jpg",
     "header": "Plans & Drawings",
     "subheading": "We Create plans and drawings to spec up your electrical needs based on your existing GA plan",
-    "description": "Description Needed",
+    "description": "Upon securing your approved GA and RCP in DWG/CAD, we tailor our services to encompass all your electrical requirements. Whether it's stages 1-4 or comprehensive circuit annotation to full design and construction, our adaptable approach ensures seamless integration with your needs. Additionally, we provide schematic solutions for panel boards, electrical distribution, fire alarm systems, IT data, and controls.",
     "carousel": true
   },
   {
     "photo": "/elecspec.webp",
     "header": "Electrical System Design",
     "subheading": "We Design and calculate your system",
-    "description": "We provide cable calculations using a well known and respected software to provide numerous information that will assist your team in the installation. Alongside this we can provide CAD drawings and lighting calculations which will bring the benefit to the scheme. As well as design we can attend sites to check compliance and snagging prior to handover so that it gives you and your client peace of mind.",
+    "description": "Utilising the latest design software, we can ensure the cable calculations and load reports are up to date. The same software reports we can use to provide all drawings are circuited up to make life easier for your installer. A brief summary of your requirements and any specifications then we can ensure design compliance.",
     "carousel": true,
     "spec": "BS7671-2018 (Amd 2:2022)"
   },
@@ -20,14 +20,22 @@
     "subheading": "We Design and Organise your emergency lighting.",
     "description": "How many times does this important feature get missed out, we can provide calculations and drawings so you know its been designed correctly. ",
     "carousel": true,
-    "spec": "BS5266-1:2016"
+    "spec": "BS5266-1:2016",
+    "covered": [
+      "Provide lux plots and calculations",
+      "Added to drawings these can be used by your installer and for commissioning"
+    ]
   },
   {
     "photo": "/firealarm.jpg",
     "header": "Fire Alarm Systems",
     "subheading": "We Design your fire alarm system to your spec",
-    "description": "At A Eade Electrical Design, we work closely with our clients to deliver the best results in each of our fire alarm projects. From initial concept, we add value to our work by providing faster, more productive efforts, greater skills, and more comprehensive know-how. From initial meeting we can start working on your design needs for you.",
+    "description": "Working closely with our clients, we strive to deliver outstanding results for every fire alarm project. Our approach emphasizes value addition from the initial concept stage, characterized by efficient processes, heightened productivity, advanced expertise, and comprehensive knowledge. We're ready to commence addressing your design needs from our very first meeting",
     "carousel": true,
-    "spec": "BS5839-1"
+    "spec": "BS5839-1",
+    "covered": [
+      "We can provide calculations and plans and offer a range of different panels/systems",
+      "Once have details of the category and any fire risk assessment we can design a compliant system to fit your budget."
+    ]
   }
 ]

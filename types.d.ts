@@ -5,4 +5,5 @@ export type ServiceType = {
   description?: string;
   carousel: boolean;
   spec: string;
+  covered: string[];
 };

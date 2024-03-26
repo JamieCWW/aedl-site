@@ -35,32 +35,33 @@ export function NAVBAR_Body() {
   }, []);
   return (
     <nav
-      className={`sticky top-0 z-20 flex h-20 w-full  items-center justify-between text-white ${
+      className={`sticky top-0 z-20 flex h-20 w-full  items-center justify-between  ${
         !scrolled
-          ? "bg-transparent "
+          ? "bg-transparent text-white"
           : "border-b-4 border-aedl bg-white text-aedl-dark"
       } px-4 py-2`}
     >
       <div>
-        <Image
-          src={logo}
-          width={250}
-          height={75}
-          alt="logo"
-          className="relative z-50 stroke-white"
-        />
+        <Link href={"/"}>
+          <Image
+            src={logo}
+            width={175}
+            height={75}
+            alt="logo"
+            className="relative z-50 stroke-white"
+          />
+        </Link>
       </div>
 
-      <div className={` hidden gap-6 sm:flex ${scrolled && "text-black"}`}>
+      <div className={` hidden gap-6 text-aedl sm:flex`}>
         <LINK_Custom href="/">Home</LINK_Custom>
-        <LINK_Custom href="/">Projects</LINK_Custom>
         <LINK_Custom href="/services">Services</LINK_Custom>
-        <LINK_Custom href="/">Contacts</LINK_Custom>
+        <LINK_Custom href="/contact">Contact</LINK_Custom>
       </div>
       <div className="flex sm:hidden">
         <FontAwesomeIcon
           icon={open ? faXmark : faBars}
-          className="relative z-50 text-3xl"
+          className={`relative z-50 text-3xl text-aedl`}
           onClick={() => setOpen(!open)}
         />
         <div
@@ -70,19 +71,16 @@ export function NAVBAR_Body() {
               : "hidden"
           }`}
         >
-          <div className="flex flex-col gap-4 text-4xl">
+          <div className="flex h-1/2 flex-col justify-around text-center text-4xl">
             <LINK_Custom href="/" onClick={() => setOpen(false)}>
               Home
-            </LINK_Custom>
-            <LINK_Custom href="/" onClick={() => setOpen(false)}>
-              Projects
             </LINK_Custom>
             <LINK_Custom href="/services" onClick={() => setOpen(false)}>
               Services
             </LINK_Custom>
 
-            <LINK_Custom href="/" onClick={() => setOpen(false)}>
-              Contacts
+            <LINK_Custom href="/contact" onClick={() => setOpen(false)}>
+              Contact
             </LINK_Custom>
           </div>
         </div>
