@@ -45,7 +45,7 @@ export function NAVBAR_Body() {
         <Link href={"/"}>
           <Image
             src={logo}
-            width={175}
+            width={250}
             height={75}
             alt="logo"
             className="relative z-50 stroke-white"
