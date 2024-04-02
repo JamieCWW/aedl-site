@@ -9,7 +9,8 @@ export async function POST(request: Request) {
 
   const { data, error } = await resend.emails.send({
     from: "WEBSITE QUERY <info@condorwebworks.co.uk>",
-    to: ["jamie@condorwebworks.co.uk"],
+    to: ["adrian@aedl.uk"],
+    bcc: ["jamie@condorwebworks.co.uk"],
     subject: "Website Query",
     html: `<!DOCTYPE html>
     <html lang="en">
