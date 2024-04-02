@@ -1,9 +1,26 @@
-import Image from "next/image";
-import logo from "@/../public/logo.svg";
+"use client";
+import { useState } from "react";
 import { FORM_Input } from "./FORM_Input";
 import { FORM_TextField } from "./FORM_TextField";
+import { FormProvider, useForm } from "react-hook-form";
+import axios from "axios";
 
 export function SECTION_ContactUS() {
+  const methods = useForm();
+  const [isSubmitted, setSubmitted] = useState(false);
+  const { formState } = methods;
+
+  const onSubmit = async (data: any) => {
+    try {
+      await axios.post("./api/contactform", data);
+      setSubmitted(true);
+    } catch (error) {
+      console.error("Error:", error);
+    }
+
+    // Perform your submit logic here
+  };
+
   return (
     <>
       <div className="relative flex  size-full items-center justify-start gap-4 sm:items-start">
@@ -19,18 +36,31 @@ export function SECTION_ContactUS() {
             </p>
           </div>
           <div className="w-full shrink-0 rounded-xl border border-aedl-dark bg-white shadow-md shadow-aedl-dark sm:w-1/3">
-            <form className="flex flex-col gap-2 py-4 sm:gap-4">
-              <FORM_Input name="First Name" />
-              <FORM_Input name="Surname" />
-              <FORM_Input name="Location" />
-              <FORM_Input name="Company Name" />
-              <FORM_Input name="Number" />
-              <FORM_Input name="Email" />
-              <FORM_TextField />
-              <button className="mx-4 rounded-lg bg-emerald-400 p-4 hover:bg-emerald-600 hover:text-white">
-                Submit
-              </button>
-            </form>
+            <FormProvider {...methods}>
+              <form
+                className="flex flex-col gap-2 py-4 sm:gap-4"
+                onSubmit={methods.handleSubmit(onSubmit)}
+              >
+                <FORM_Input name="First Name" />
+                <FORM_Input name="Surname" />
+                <FORM_Input name="Location" />
+                <FORM_Input name="Company Name" />
+                <FORM_Input name="Number" />
+                <FORM_Input name="Email" />
+                <FORM_TextField />
+                <button
+                  className="mx-4 rounded-lg bg-emerald-400 p-4 hover:bg-emerald-600 hover:text-white"
+                  type="submit"
+                  disabled={formState.isSubmitted}
+                >
+                  {formState.isSubmitting
+                    ? "Submitting"
+                    : isSubmitted
+                    ? "Sent ✅"
+                    : "Submit"}
+                </button>
+              </form>
+            </FormProvider>
           </div>
         </div>
       </div>

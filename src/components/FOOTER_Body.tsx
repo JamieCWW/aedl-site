@@ -18,6 +18,7 @@ export function FOOTER_Body() {
             <LINK_Custom href="tel:+447916629531">
               (+44)07916 629531
             </LINK_Custom>
+            <span className="">Company No: 15507768 </span>
           </div>
         </div>
         <div className="flex flex-col gap-2">
@@ -70,12 +71,19 @@ export function FOOTER_Body() {
           </ul>
         </div>
       </div>
-      <div className="text-xs">
-        Website Created By{" "}
-        <a href={"https://www.condorwebworks.co.uk"} target="__blank">
-          Condor Web Works
-        </a>{" "}
-        © {new Date().getFullYear()}
+
+      <div className="flex flex-col gap-4 text-center text-xs text-slate-500">
+        <span>
+          Website Created By{" "}
+          <a
+            href={"https://www.condorwebworks.co.uk"}
+            className="hover:text-white"
+            target="__blank"
+          >
+            Condor Web Works
+          </a>{" "}
+          © {new Date().getFullYear()}
+        </span>
       </div>
     </footer>
   );
