@@ -11,7 +11,7 @@ export async function POST(request: Request) {
     from: "WEBSITE QUERY <info@condorwebworks.co.uk>",
     to: ["adrian@aedl.uk"],
     bcc: ["jamie@condorwebworks.co.uk"],
-    subject: "Website Query",
+    subject: "Website Enquiry",
     html: `<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -23,10 +23,8 @@ export async function POST(request: Request) {
             body {
                 font-family: Arial, sans-serif;
                 margin: 0;
-                padding: 0;
+                padding: 40px;
                 background-color: #f7f7f7;
-                height:100dvh;
-                min-height:600px;
                 display:flex;
                 flex-direction:column;
                 justify-content:center;
@@ -66,7 +64,11 @@ box-shadow: 0px 10px 28px 0px rgba(110,110,110,1);
                 border-bottom-right-radius: 8px;
                 text-align:center;
                 font-style:italic;
-                font-size:10px
+                font-size:10px;
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                align-items:center
             }
             .footer p {
                 margin: 0;
@@ -114,6 +116,10 @@ box-shadow: 0px 10px 28px 0px rgba(110,110,110,1);
                 padding:10px;
             }
 
+            img{
+              height:20vh;
+            }
+
             @media screen and (max-width: 768px) {
               .container {
                 width: 90dvw; /* Adjusted width for small screens */
@@ -122,9 +128,12 @@ box-shadow: 0px 10px 28px 0px rgba(110,110,110,1);
               }
 
               body{
-                height:100dvh;
                 padding-top:50px;
                 padding-bottom:50px
+              }
+
+              img{
+                height:20px;
               }
             }
         </style>
@@ -149,7 +158,7 @@ box-shadow: 0px 10px 28px 0px rgba(110,110,110,1);
 
                 <div class="details">
                     <div>Details of Enquiry</div>
-                    <p> ${formData?.["Number"]}</p>
+                    <p> ${formData?.["Details Of Enquiry"]}</p>
                 </div>
                
             </div>
